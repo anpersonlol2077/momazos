@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+div{
+    border: 3px solid white;
+}
+
+.container{
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    transition: 0.5s all ease;
+}
+
+.container:hover{
+    width: 400px;
+    transition: 0.5s all ease;
+}
+
+.que{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.boton{
+    display: grid;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.5s all ease;
+}
+
+.boton:hover{
+    background-color: rgb(103, 103, 103);
+    width: 400px;
+    transition: 0.5s all ease;
+}
